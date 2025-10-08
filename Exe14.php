@@ -14,10 +14,10 @@ Descritivo:.DO-WHILE: Escreva um programa que leia um número e o imprima. O pro
 
 $num = 0;
 
-do {
+do {    
     echo "Digite um número: \n";
 $num = (int)trim(fgets(STDIN));
-echo $num;
-} while ($num > 0);
+echo $num."\n";
+} while ($num > -1);
 echo "\n Parando Programa..."
 ?>
