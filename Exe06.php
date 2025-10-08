@@ -11,10 +11,11 @@ Componentes:
 Data: 08 de Outubro de 2025
 Descritivo:FOR: Escreva um programa que use for para imprimir os números de 1 a 10.
 *******************************************************************************/
-echo "<h3>Tabuada do 5</h3>";
 
-for ($i = 1; $i <= 10; $i++) {
-    $resultado = 5 * $i;
-    echo "5 x $i = $resultado<br>";
+$i = 1;
+
+while ($i <= 10) {
+    echo $i . "<br>";
+    $i++;
 }
 ?>
