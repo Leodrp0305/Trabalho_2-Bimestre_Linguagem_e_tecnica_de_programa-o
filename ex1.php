@@ -9,7 +9,7 @@ Componentes:
  25125961-2 - Elias Borgers Neckel
  25011023-2 - Lucas Coelho Suero 
 Data: 08 de Outubro de 2025
-Descritivo:FOR: Crie um programa que use for para imprimir os números pares de 2 a 20.
+Descritivo:FOR: Escreva um programa que use for para imprimir os números de 1 a 10.
 *******************************************************************************/
     for ($n = 0; $n<=10; $n++) {
         echo "Número". $n . "\n" ;
@@ -17,3 +17,4 @@ Descritivo:FOR: Crie um programa que use for para imprimir os números pares de 
 }
 
 ?>
+
