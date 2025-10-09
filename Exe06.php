@@ -9,7 +9,7 @@ Componentes:
  25125961-2 - Elias Borgers Neckel
  25011023-2 - Lucas Coelho Suero 
 Data: 08 de Outubro de 2025
-Descritivo:FOR: Escreva um programa que use for para imprimir os números de 1 a 10.
+Descritivo: WHILE: Escreva um programa que use while para imprimir os números de 1 a 10
 *******************************************************************************/
 
 $i = 1;
@@ -19,3 +19,4 @@ while ($i <= 10) {
     $i++;
 }
 ?>
+
