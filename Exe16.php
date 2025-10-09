@@ -11,6 +11,7 @@ Componentes:
 Data: 08 de Outubro de 2025
 Descritivo:.Array Homogêneo: Crie um array com 5 nomes de cidades
 *******************************************************************************/
-$cit = ["Curitba","Tokyo", "São Paulo", "Paris", "Porto alegre"];
+$cit = ["Curitiba","Tokyo", "São Paulo", "Paris", "Porto alegre"];
     print_r($cit);
+
 ?>
