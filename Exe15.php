@@ -9,7 +9,7 @@ Componentes:
  25125961-2 - Elias Borgers Neckel
  25011023-2 - Lucas Coelho Suero 
 Data: 08 de Outubro de 2025
-Descritivo:FOR: Escreva um programa que use for para imprimir os números de 1 a 10.
+Descritivo:FOR/IF: Crie um programa para encontrar e imprimir todos os números primos entre 1 e 50.
 *******************************************************************************/
 echo "Números primos entre 1 e 50:\n";
 
@@ -29,3 +29,4 @@ for ($num = 2; $num <= 50; $num++) {
     }
 }
 ?>
+
