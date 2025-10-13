@@ -14,8 +14,11 @@ Descritivo: Array Heterogêneo (Associativo): Crie um array associativo para arm
 
     $aluno = [
         "nome" => "Bruno", //string
-        "idade" =>"30",     //inteiro
+        "idade" => 30,     //inteiro
         "curso" => "Engenharia de Software", //string
     ];
+ 
+    echo "Seu nome é: " . $aluno["nome"] . "\nVocê tem: " . $aluno["idade"] . " anos" . "\nSeu curso é: " . $aluno["curso"] ;  
 
 ?>
+
