@@ -11,11 +11,12 @@ Componentes:
 Data: 08 de Outubro de 2025
 Descritivo: Procedimento: Crie um procedimento chamado saudacao que imprima "Bem-vindo ao PHP!"
 *******************************************************************************/
-
+    // Procedimento não retorna valor
     function saudacao(){ 
         echo "Bem-vindo ao PHP!";
     }
     saudacao()
+
 
 
 ?>
