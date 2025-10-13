@@ -14,10 +14,7 @@ Descritivo: Array/Busca: Crie um array de frutas. Escreva um código que verifiq
 
     $frutas = ["Abacaxi", "Banana", "Mamão", "Maçã", "Laranja"];
 
-    if (in_array("Maçã", $frutas)) { // in_array verifica se o primeiro valor entre aspas esta presente no array frutas
-        echo "Maçã está no array";
-    } else {
-        echo "Maçã não está no array";
-    }
+    echo in_array("Maçã", $frutas) ? "Maçã está no array" : "Maçã não está no array";
+    // in_array verifica se o primeiro valor entre aspas esta presente no array frutas
 
 ?>
