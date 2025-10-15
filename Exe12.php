@@ -9,7 +9,7 @@ Componentes:
  25125961-2 - Elias Borgers Neckel
  25011023-2 - Lucas Coelho Suero 
 Data: 08 de Outubro de 2025
-Descritivo:FOR: Escreva um programa que use for para imprimir os números de 1 a 10.
+Descritivo:DO-WHILE: Crie um menu de opções (1. Iniciar, 2. Parar, 3. Sair) e use do-while para mostrar o menu até que o usuário escolha "Sair".
 *******************************************************************************/
 do {
     // Exibe o menu
