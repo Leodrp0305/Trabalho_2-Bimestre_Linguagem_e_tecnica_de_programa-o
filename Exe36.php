@@ -9,21 +9,12 @@ Componentes:
  25125961-2 - Elias Borgers Neckel
  25011023-2 - Lucas Coelho Suero 
 Data: 08 de Outubro de 2025
-Descritivo:Array Associativo: Crie um array com as notas de um aluno em 4 disciplinas e calcule a média..
+Descritivo:Procedimento:Crie um procedimento desenhar Linha que imprima uma linha de 20 hifens
 *******************************************************************************/
-$notas = [
-    "Matemática" => 8.5,
-    "Português" => 7.0,
-    "História" => 9.0,
-    "Ciências" => 6.5
-];
-
-$total = 0;
-foreach ($notas as $disciplina => $nota) {
-    $total += $nota;
+function desenharLinha() {
+    echo str_repeat("-", 20) . "<br>";
 }
 
-$media = $total / count($notas);
-
-echo "Média do aluno: " . number_format($media, 2);
+// Exemplo de uso
+desenharLinha();
 ?>

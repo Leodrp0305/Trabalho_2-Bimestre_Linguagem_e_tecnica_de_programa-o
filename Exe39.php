@@ -9,12 +9,15 @@ Componentes:
  25125961-2 - Elias Borgers Neckel
  25011023-2 - Lucas Coelho Suero 
 Data: 08 de Outubro de 2025
-Descritivo:FOR: Faça um programa que exiba a tabuada do 5, de 1 a 10.
-*******************************************************************************/
-echo "<h3>Tabuada do 5</h3>";
+Descritivo:Procedimento:Crie um procedimento contagemRegressiva que receba um número e imprima uma contagem regressiva a partir dele até 0.
 
-for ($i = 1; $i <= 10; $i++) {
-    $resultado = 5 * $i;
-    echo "5 x $i = $resultado<br>";
+*******************************************************************************/
+function contagemRegressiva($numero) {
+    for ($i = $numero; $i >= 0; $i--) {
+        echo $i . "<br>";
+    }
 }
+
+// Exemplo de uso
+contagemRegressiva(5);
 ?>
