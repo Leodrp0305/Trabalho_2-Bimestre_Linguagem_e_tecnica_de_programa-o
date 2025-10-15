@@ -15,9 +15,10 @@ function mostrardados($nome, $idade,  $cidade){
     echo "Seus dados pessoais são: \n";
     echo "Seu nome é: " . $nome . "\n";
     echo "Sua idade é: " . $idade . " anos \n";
-    echo "Sua cidade é " . $cidade . "\n";
+    echo "Sua cidade é: " . $cidade . "\n";
 }
     
     mostrardados("Lucas", 18, "Rio de Janeiro")
+
 
 ?>
