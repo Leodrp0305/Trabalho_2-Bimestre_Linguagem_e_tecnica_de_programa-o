@@ -15,4 +15,5 @@ for ($i = 2; $i <= 20; $i += 2) { //for usará um contador de 2 em 2 a partir do
     echo $i."\n"; //imprime o contador
 }
 
+
 ?>
