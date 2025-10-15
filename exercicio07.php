@@ -25,4 +25,5 @@ Descritivo:.WHILE: Crie um programa que peça ao usuário para adivinhar um núm
     echo "O número era $num, você tomou $i tentativas para acertar."
 
 
+
 ?>
