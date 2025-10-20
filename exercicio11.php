@@ -12,8 +12,9 @@ Data: 08 de Outubro de 2025
 Descritivo:DO-WHILE: Escreva um programa que use do-while para imprimir os números de 1 a 10.
 *******************************************************************************/
 $i = 1;
-do {
-    echo $i."\n";
-    $i++;
-} while ($i <= 10);
+do { //o código dentro do "do" será executado pelo menos uma vez.
+    echo $i."\n";// exibe o valor de $i
+    $i++; //adiciona +1 em $i
+} while ($i <= 10); //encerra o bloco quando o $i passar de 10
 ?>
+
