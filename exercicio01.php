@@ -11,10 +11,11 @@ Componentes:
 Data: 08 de Outubro de 2025
 Descritivo:FOR: Escreva um programa que use for para imprimir os números de 1 a 10.
 *******************************************************************************/
-    for ($n = 0; $n<=10; $n++) {
-        echo "Número". $n . "\n" ;
+    for ($n = 1; $n<=10; $n++) { //for usará um contador de 1 em 1 a partir do número 1 e parando no número 10.
+        echo "Número ". $n . "\n" ; //imprime o contador
     
 }
 
 ?>
+
 
