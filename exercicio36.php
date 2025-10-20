@@ -11,10 +11,11 @@ Componentes:
 Data: 08 de Outubro de 2025
 Descritivo:Procedimento:Crie um procedimento desenhar Linha que imprima uma linha de 20 hifens
 *******************************************************************************/
-function desenharLinha() {
-    echo str_repeat("-", 20) . "<br>";
+function desenharLinha() { //criamos uma função chamada desenharLinha, como pedido.
+    echo str_repeat("-", 20) . "<br>"; //usamos a função padrão do php chamada str_repeat e dentro do paramentro colocamos a string "-" para ser repetida 20 vezes
 }
 
 // Exemplo de uso
-desenharLinha();
+desenharLinha(); // aqui somente chamamos a string.
 ?>
+
