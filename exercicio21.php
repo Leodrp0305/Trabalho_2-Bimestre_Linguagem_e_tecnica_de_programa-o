@@ -11,7 +11,7 @@ Componentes:
 Data: 08 de Outubro de 2025
 Descritivo: Array Heterogêneo (Associativo): Crie um array associativo para armazenar os dados de um aluno (nome, idade, curso).
 *******************************************************************************/
-
+ //Array Heterogêneo guarda os elementos em strings ao inves de numeros
     $aluno = [
         "nome" => "Bruno", //string
         "idade" => 30,     //inteiro
@@ -21,4 +21,5 @@ Descritivo: Array Heterogêneo (Associativo): Crie um array associativo para arm
     echo "Seu nome é: " . $aluno["nome"] . "\nVocê tem: " . $aluno["idade"] . " anos" . "\nSeu curso é: " . $aluno["curso"] ;  
 
 ?>
+
 
