@@ -12,8 +12,9 @@ Data: 08 de Outubro de 2025
 Descritivo:FOREACH: Usando o array de cidades do exercício 16, imprima cada cidade em uma nova linha usando foreach.
 *******************************************************************************/
 $cit = ["Curitiba","Tokyo", "São Paulo", "Paris", "Porto alegre"];
-    foreach ($cit as $thisline) {
+    foreach ($cit as $thisline) { //Em cada iteração do foreach o valor de um elemento do array é atribuído à variável $thisline.
         echo $thisline ."\n";
     }
 
 ?>
+
