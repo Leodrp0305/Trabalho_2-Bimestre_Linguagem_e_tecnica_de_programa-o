@@ -14,9 +14,10 @@ Descritivo: WHILE: Escreva um programa que use while para imprimir os números d
 
 $i = 1;
 
-while ($i <= 10) {
-    echo $i . "<br>";
-    $i++;
+while ($i <= 10) { // faz a repetiçao enquanto a condição $i <= 10 for verdadeira
+    echo $i . "<br> \n"; // mostra o valor atual de $i na tela
+    $i++; //incrementa 1 no $i a cada repetiçao
 }
 ?>
+
 
