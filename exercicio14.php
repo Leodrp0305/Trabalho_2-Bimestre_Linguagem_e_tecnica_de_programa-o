@@ -15,9 +15,10 @@ Descritivo:.DO-WHILE: Escreva um programa que leia um número e o imprima. O pro
 $num = 0;
 
 do {    
-    echo "Digite um número: \n";
-$num = (int)trim(fgets(STDIN));
-echo $num."\n";
-} while ($num > -1);
-echo "\n Parando Programa..."
+    echo "Digite um número: \n"; // solicita ao usuário que digite um número,
+$num = (int)trim(fgets(STDIN)); //armazena o numero digitado
+echo $num."\n"; //mostra o numero digitado
+} while ($num > -1); //o loop continua enquanto o valor de $num for maior que -1
+echo "\n Parando Programa..." // montra a mensagem quando o loop for encerrado
 ?>
+
