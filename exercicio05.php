@@ -11,9 +11,12 @@ Componentes:
 Data: 08 de Outubro de 2025
 Descritivo:FOR: : Crie um programa que calcule e imprima a soma dos números de 1 a 100
 *******************************************************************************/
-$soma = []; //criei um array extremamente desnecessário
-for ($i = 0; $i <= 100; $i ++){ //crie um for para contar de 1 a 100
-$soma[] = $i; //coloca a variavel de contagem dentro do array criado
+$soma = 0;
+
+for ($i = 1; $i <= 100; $i++) { //cria um for para contar de 1 a 100
+    $soma += $i; //faz a soma para dentro da variavel
 }
-echo array_sum($soma); //usa array_sum para somar todas as versões do contador
+
+echo $soma; //mostra o resultado
 ?>
+
