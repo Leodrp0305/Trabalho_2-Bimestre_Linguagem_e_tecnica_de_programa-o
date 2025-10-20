@@ -11,9 +11,10 @@ Data: 08 de Outubro de 2025
 Descritivo:FOR:  Escreva um programa que use for para contar de 10 a 1 em ordem decrescente.
 *******************************************************************************/
 
-for( $n= 10; $n>=1; $n--) {
-    echo "Número". $n . "\n" ;
+for( $n= 10; $n>=1; $n--) { //for usará um contador de 1 em 1, começando em 10 e parando em 1
+    echo "Número". $n . "\n" ; //exibe o resultado
 }
 
 
 ?>
+
