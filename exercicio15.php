@@ -17,7 +17,7 @@ for ($num = 2; $num <= 50; $num++) {
     $ehPrimo = true;
 
     // Verifica se $num é divisível por algum número entre 2 e $num-1
-    for ($i = 2; $i <= sqrt($num); $i++) {
+    for ($i = 2; $i <= sqrt($num); $i++) { // A função sqrt($num) retorna a raiz quadrada de $num
         if ($num % $i == 0) {
             $ehPrimo = false;
             break;
@@ -29,4 +29,5 @@ for ($num = 2; $num <= 50; $num++) {
     }
 }
 ?>
+
 
