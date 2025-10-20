@@ -11,10 +11,11 @@ Componentes:
 Data: 08 de Outubro de 2025
 Descritivo:FOR: Faça um programa que exiba a tabuada do 5, de 1 a 10.
 *******************************************************************************/
-echo "<h3>Tabuada do 5</h3>";
+echo "Tabuada do 5 \n";
 
-for ($i = 1; $i <= 10; $i++) {
-    $resultado = 5 * $i;
-    echo "5 x $i = $resultado<br>";
+for ($i = 1; $i <= 10; $i++) { //for usará um contador de 1 em 1 a partir do número 1 e parando no número 10.
+    $resultado = 5 * $i; //efetua a multiplicação
+    echo "5 x " . $i . " = " . $resultado . "\n"; //mostra o resultado
 }
 ?>
+
