@@ -19,11 +19,12 @@ $notas = [
 ];
 
 $total = 0;
-foreach ($notas as $disciplina => $nota) {
-    $total += $nota;
+foreach ($notas as $disciplina => $nota) { 
+    $total += $nota; //soma as notas
 }
 
-$media = $total / count($notas);
+$media = $total / count($notas); //calculo da media / count retorna a quantidade de elementos do array
 
-echo "Média do aluno: " . number_format($media, 2);
+echo "Média do aluno: " . number_format($media, 2); //number_format deixa o valor com duas casas decimais
 ?>
+
