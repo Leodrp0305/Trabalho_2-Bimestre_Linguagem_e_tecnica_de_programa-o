@@ -15,9 +15,10 @@ Descritivo:"DO-WHILE: Faça um programa que solicite uma senha ao usuário. O pr
 
     do{
         echo"Digite sua senha \n";
-        $var1 = (int)trim(fgets(STDIN));
-    }while($var1 != 1234);
+        $var1 = (int)trim(fgets(STDIN)); // armazena a senha digitada pelo usuario
+    }while($var1 != 1234); //se a senha for diferente retorna o lop
 
-    echo "Senha correta";
+    echo "Senha correta"; //acertando a senha aparece a mensagem
     
 ?>
+
